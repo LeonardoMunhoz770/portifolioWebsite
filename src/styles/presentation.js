@@ -10,7 +10,8 @@ export const ContainerPricipal = styled.div`
         height: 100%;
         flex-direction: column;
         margin-top: 100px;
-    }    
+    }
+    
 `
 
 export const Apresentacao = styled.div`
@@ -23,7 +24,7 @@ export const Apresentacao = styled.div`
         width: 100%;
     }
     @media(max-width: 955px){
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
 `
@@ -87,18 +88,20 @@ export const FirstCampo = styled.div`
 `
 
 export const ContainerAvatar = styled.div`
-    background-color: #EBECED;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 500px;
     height: 500px;
-    border-radius: 250px;
     @media(max-width: 535px){
-        width: 270px;
-        height: 300px;
-        border-radius: 50%;
+        width: 350px;
+        height: 350px;
         
+    }
+    @media(max-width: 954px){
+        width: 350px;
+        height: 350px;
+        margin-bottom: 20px;
     }
 `;
 
@@ -108,9 +111,11 @@ export const Avatar = styled.img`
     height: 300px;
     background-color: #277AC0;
     border-radius: 150px;
-    margin-right: 30px;
-    margin-top: 50px;
     @media(max-width: 535px){
+        width: 100px;
+        height: 100px;
+    }
+    @media(max-width: 954px){
         width: 200px;
         height: 200px;
     }

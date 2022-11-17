@@ -14,6 +14,9 @@ export function Presentation(){
                         <Profissao>Frontend &#60; &#62;</Profissao>
                         <Estudante>Sou um estudante de Programação Frontend, que tal trabalharmos juntos?</Estudante>
                         <Button width={120} height={40}>Contato</Button>
+                        <div>
+                            
+                        </div>
                     </Alinhamento>
                 </FirstCampo>
                 <CampoAvatar>

@@ -8,7 +8,6 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    background-color: #F7F7F7;
   }
 
   body, input, button {
