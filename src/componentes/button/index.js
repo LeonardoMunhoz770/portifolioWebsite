@@ -1,8 +1,8 @@
 import React from "react";
 import './style.css'
-export function Button({children, onClick,width, height}){
+export function Button({children, onClick,width, height, href}){
     return(
-        <button onClick={onClick} style={{ width: width , height: height}} className="button"> {children}</button>
+        <a href={href} onClick={onClick} style={{ width: width , height: height}} className="button"> {children}</a>
     )
 }
 
